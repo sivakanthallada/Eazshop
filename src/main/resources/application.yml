@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: sivakanth
+    password: 123
+    dataSource-class-name: oracle.jdbc.pool.OracleDataSource
+    connection-pool-size: 20
+    min-idle-connections: 10
+    connection-timeout-millis: 60000
+  servlet:
+    multipart:
+      enabled: true
+#image:
+#  upload:
+#    directory: C:\Users\SIVAKANTH\Desktop\eazshop\eazshop\images
