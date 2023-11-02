@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:oracle:thin:@localhost:1521:ORCL
-    username: sivakanth
-    password: 123
+    url: jdbc:oracle:thin:@oracle-152991-0.cloudclusters.net:19252:XE
+    username: sivvu
+    password: 12345678
     dataSource-class-name: oracle.jdbc.pool.OracleDataSource
     connection-pool-size: 20
     min-idle-connections: 10
